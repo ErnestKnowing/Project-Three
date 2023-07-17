@@ -103,12 +103,37 @@ body {
     }
     .intro_subTitle {
       max-width: 546px;
+      margin-bottom: 59px;
       font-family: "Lato";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       color: #ffffff;
+    }
+    .search_form {
+      .search_form_wrap {
+        .search_form_info {
+          display: flex;
+          flex-wrap: wrap;
+          .search_form_field {
+            width: 297px;
+            background: transparent url(../img/svg/oval.svg) no-repeat left top;
+            background-size: 20px;
+            border: 0;
+            border-bottom: 2px solid #bfc0c5;
+            margin-right: 60px;
+            padding-left: 43px;
+            padding-bottom: 22px;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: #ffffff;
+          }
+        }
+      }
     }
   }
 }
