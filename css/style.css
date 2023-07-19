@@ -185,4 +185,7 @@ body {
 }
 .main .benefits .benefits_wrap .benefits_cards {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 55px;
+  padding: 0 100px;
 }/*# sourceMappingURL=style.css.map */
