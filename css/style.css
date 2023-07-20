@@ -169,6 +169,9 @@ img {
 .main .intro .search_form .search_form_wrap .search_form_info .search_form_submit:active {
   background-color: #194074;
 }
+.main .benefits {
+  margin-bottom: 131px;
+}
 .main .benefits .benefits_wrap {
   max-width: 1262px;
   background-color: white;
@@ -196,6 +199,7 @@ img {
 }
 .main .benefits .benefits_wrap .benefits_cards .benefits_card {
   grid-column: span 1;
+  margin-bottom: 112px;
 }
 .main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card-pic {
   max-width: 66px;
@@ -223,10 +227,19 @@ img {
   margin-bottom: 29px;
 }
 .main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_more {
+  display: inline-block;
+  padding-right: 59px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #006dfe;
+  text-decoration: none;
+  background: url(../img/svg/shape.svg) no-repeat 95% center;
+  transition: 0.2s all;
+}
+.main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_more:hover,
+.main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_more:focus {
+  background: url(../img/svg/shape.svg) no-repeat right center;
 }/*# sourceMappingURL=style.css.map */
