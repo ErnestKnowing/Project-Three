@@ -41,6 +41,11 @@ body {
   color: #102746;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -188,4 +193,40 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 55px;
   padding: 0 100px;
+}
+.main .benefits .benefits_wrap .benefits_cards .benefits_card {
+  grid-column: span 1;
+}
+.main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card-pic {
+  max-width: 66px;
+  margin-bottom: 37px;
+}
+.main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card-pic .benefits_card-thumb {
+  display: block;
+}
+.main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_besc {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 29px;
+}
+.main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_more {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
 }/*# sourceMappingURL=style.css.map */
