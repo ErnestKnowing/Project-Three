@@ -269,4 +269,30 @@ img {
 .main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_more:hover,
 .main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_more:focus {
   background: url(../img/svg/shape.svg) no-repeat right center;
+}
+.main .places .wrapper-full .places_caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.main .places .wrapper-full .places_caption .places_title {
+  margin-right: 15px;
+}
+.main .places .wrapper-full .places_caption .places_vie_all {
+  padding-right: 59px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #006dfe;
+  background: url(../img/svg/shape.svg) no-repeat right center;
+  transition: 0.2s all;
+}
+.main .places .wrapper-full .places_caption .places_vie_all:hover,
+.main .places .wrapper-full .places_caption .places_vie_all:focus {
+  opacity: 0.65;
 }/*# sourceMappingURL=style.css.map */
