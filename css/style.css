@@ -301,6 +301,48 @@ img {
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
 }
+.main .places .wrapper-full .places_cards .places_card {
+  position: relative;
+  overflow: hidden;
+}
+.main .places .wrapper-full .places_cards .places_card::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 24, 36, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.main .places .wrapper-full .places_cards .places_card:hover .places-card_pic {
+  transform: scale(1.05);
+}
 .main .places .wrapper-full .places_cards .places-card_size_lg {
   grid-column: span 3;
+}
+.main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic {
+  width: 100%;
+  height: 354px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.15s all;
+}
+.main .places .wrapper-full .places_cards .places-card_size_lg .places_card_title {
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+}
+.main .places .wrapper-full .places_cards .places-card_size_lg .places-card_link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
 }/*# sourceMappingURL=style.css.map */
