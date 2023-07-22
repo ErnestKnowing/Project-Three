@@ -295,4 +295,12 @@ img {
 .main .places .wrapper-full .places_caption .places_vie_all:hover,
 .main .places .wrapper-full .places_caption .places_vie_all:focus {
   opacity: 0.65;
+}
+.main .places .wrapper-full .places_cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+.main .places .wrapper-full .places_cards .places-card_size_lg {
+  grid-column: span 3;
 }/*# sourceMappingURL=style.css.map */

@@ -272,7 +272,7 @@ img {
         align-items: center;
         justify-content: space-between;
         margin-bottom: 36px;
-        .places_title{
+        .places_title {
           margin-right: 15px;
         }
         .places_vie_all {
@@ -290,6 +290,14 @@ img {
         .places_vie_all:hover,
         .places_vie_all:focus {
           opacity: 0.65;
+        }
+      }
+      .places_cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+        .places-card_size_lg{
+          grid-column: span 3;
         }
       }
     }
