@@ -114,6 +114,7 @@ img {
 /*INTRO START*/
 .main {
   .intro {
+    padding-bottom: 223px;
     min-height: 100vh;
     background: url(../img/intro.jpg) no-repeat center;
     background-size: cover;
@@ -265,6 +266,7 @@ img {
     }
   }
   .places {
+    margin-bottom: 131px;
     .wrapper-full {
       .places_caption {
         display: flex;
@@ -311,18 +313,12 @@ img {
           top: 0;
           z-index: 2;
         }
-        .places_card:hover .places-card_pic{
+        .places_card:hover .places-card_pic {
           transform: scale(1.05);
         }
-        .places-card_size_lg {
-          grid-column: span 3;
-          .places-card_pic {
-            width: 100%;
-            height: 354px;
-            object-fit: cover;
-            transition: .15s all;
-          }
-          .places_card_title{
+        .places-card_size_sm {
+          grid-column: span 2;
+          .places_card_title {
             font-size: 50px;
             line-height: 60px;
             color: white;
@@ -331,7 +327,31 @@ img {
             left: 29px;
             z-index: 3;
           }
-          .places-card_link{
+        }
+        .places-card_size_lg {
+          grid-column: span 3;
+          .places-card_pic_size_lg {
+            height: 354px;
+            object-fit: cover;
+          }
+          .places-card_pic_size_sm {
+            height: 283px;
+            object-fit: cover;
+          }
+          .places-card_pic {
+            width: 100%;
+            transition: 0.15s all;
+          }
+          .places_card_title {
+            font-size: 50px;
+            line-height: 60px;
+            color: white;
+            position: absolute;
+            bottom: 27px;
+            left: 29px;
+            z-index: 3;
+          }
+          .places-card_link {
             position: absolute;
             top: 0;
             left: 0;

@@ -117,6 +117,7 @@ img {
 /*HEADER END*/
 /*INTRO START*/
 .main .intro {
+  padding-bottom: 223px;
   min-height: 100vh;
   background: url(../img/intro.jpg) no-repeat center;
   background-size: cover;
@@ -270,6 +271,9 @@ img {
 .main .benefits .benefits_wrap .benefits_cards .benefits_card .benefits_card_more:focus {
   background: url(../img/svg/shape.svg) no-repeat right center;
 }
+.main .places {
+  margin-bottom: 131px;
+}
 .main .places .wrapper-full .places_caption {
   display: flex;
   flex-wrap: wrap;
@@ -319,14 +323,33 @@ img {
 .main .places .wrapper-full .places_cards .places_card:hover .places-card_pic {
   transform: scale(1.05);
 }
+.main .places .wrapper-full .places_cards .places-card_size_sm {
+  grid-column: span 2;
+}
+.main .places .wrapper-full .places_cards .places-card_size_sm .places_card_title {
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+}
 .main .places .wrapper-full .places_cards .places-card_size_lg {
   grid-column: span 3;
 }
-.main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic {
-  width: 100%;
+.main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic_size_lg {
   height: 354px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic_size_sm {
+  height: 283px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic {
+  width: 100%;
   transition: 0.15s all;
 }
 .main .places .wrapper-full .places_cards .places-card_size_lg .places_card_title {
