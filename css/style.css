@@ -377,6 +377,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0 108px;
   align-items: center;
+  margin-bottom: 77px;
 }
 .main .tours .wrapper-full .tours_tour .tour_pic .tour_thomb {
   width: 100%;
@@ -400,5 +401,19 @@ img {
   margin-bottom: 58px;
 }
 .main .tours .wrapper-full .tours_tour .tour_info .tour_more {
+  padding-right: 59px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   text-decoration: none;
+  color: #006dfe;
+  background: url(../img/svg/shape.svg) no-repeat right center;
+  transition: 0.2s all;
+}
+.main .tours .wrapper-full .tours_tour .tour_info .tour_more:hover,
+.main .tours .wrapper-full .tours_tour .tour_info .tour_more:focus {
+  transition: 0.2s all;
+  opacity: 0.65;
 }/*# sourceMappingURL=style.css.map */
