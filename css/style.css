@@ -431,6 +431,10 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 57px;
 }
+.main .top .wrapper-full .top_cards .top_card {
+  display: flex;
+  flex-direction: column;
+}
 .main .top .wrapper-full .top_cards .top_card .top_card-desc {
   font-family: "Lato";
   font-style: normal;
@@ -451,6 +455,8 @@ img {
   color: #ffffff;
   border: 0;
   transition: 0.15s;
+  width: 118px;
+  margin: auto 0 0 0;
 }
 .main .top .wrapper-full .top_cards .top_card .top_card-more:hover, .main .top .wrapper-full .top_cards .top_card .top_card-more:focus {
   background-color: #194074;

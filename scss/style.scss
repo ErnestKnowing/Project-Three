@@ -429,6 +429,8 @@ img {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 57px;
         .top_card {
+          display: flex;
+          flex-direction: column;
           .top_card-desc {
             font-family: "Lato";
             font-style: normal;
@@ -449,6 +451,8 @@ img {
             color: #ffffff;
             border: 0;
             transition: 0.15s;
+            width: 118px;
+            margin: auto 0 0 0;
           }
           .top_card-more:hover, .top_card-more:focus{
             background-color: #194074;
