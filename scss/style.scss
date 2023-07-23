@@ -378,6 +378,7 @@ img {
           }
         }
         .tour_info {
+          padding-left: 47px;
           .tour_title {
             font-family: "Lato";
             font-style: normal;
@@ -414,6 +415,14 @@ img {
             opacity: 0.65;
           }
         }
+      }
+    }
+  }
+  .top{
+    margin-bottom: 86px;
+    .wrapper-full{
+      .top_title{
+        margin-bottom: 64px;
       }
     }
   }

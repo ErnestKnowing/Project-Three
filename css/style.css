@@ -382,6 +382,9 @@ img {
 .main .tours .wrapper-full .tours_tour .tour_pic .tour_thomb {
   width: 100%;
 }
+.main .tours .wrapper-full .tours_tour .tour_info {
+  padding-left: 47px;
+}
 .main .tours .wrapper-full .tours_tour .tour_info .tour_title {
   font-family: "Lato";
   font-style: normal;
@@ -416,4 +419,10 @@ img {
 .main .tours .wrapper-full .tours_tour .tour_info .tour_more:focus {
   transition: 0.2s all;
   opacity: 0.65;
+}
+.main .top {
+  margin-bottom: 86px;
+}
+.main .top .wrapper-full .top_title {
+  margin-bottom: 64px;
 }/*# sourceMappingURL=style.css.map */
