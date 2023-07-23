@@ -425,4 +425,54 @@ img {
 }
 .main .top .wrapper-full .top_title {
   margin-bottom: 64px;
+}
+.main .top .wrapper-full .top_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+.main .top .wrapper-full .top_cards .top_card .top_card-pic {
+  position: relative;
+}
+.main .top .wrapper-full .top_cards .top_card .top_card-pic .top_card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.main .top .wrapper-full .top_cards .top_card .top_card-pic .top_card-stats .top_card-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 auto 0 0;
+}
+.main .top .wrapper-full .top_cards .top_card .top_card-pic .top_card-stats .top_card-likes {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-right: 20px;
+  background: url(../img/svg/heart.svg) no-repeat right;
+  margin-right: 14px;
+}
+.main .top .wrapper-full .top_cards .top_card .top_card-pic .top_card-stats .top_card-comments {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-right: 23px;
+  background: url(../img/svg/com.svg) no-repeat right;
 }/*# sourceMappingURL=style.css.map */

@@ -418,11 +418,64 @@ img {
       }
     }
   }
-  .top{
+  .top {
     margin-bottom: 86px;
-    .wrapper-full{
-      .top_title{
+    .wrapper-full {
+      .top_title {
         margin-bottom: 64px;
+      }
+      .top_cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 57px;
+        .top_card {
+          .top_card-pic {
+            position: relative;
+            .top_card-stats {
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: flex-end;
+              padding: 16px 25px;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              background-color: rgba(21, 24, 36, 0.6);
+              .top_card-title {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 24px;
+                color: #ffffff;
+                margin: 0 auto 0 0;
+                
+              }
+              .top_card-likes {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #ffffff;
+                padding-right: 20px;
+                background: url(../img/svg/heart.svg) no-repeat right;
+                margin-right: 14px;
+              }
+              .top_card-comments {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #ffffff;
+                padding-right: 23px;
+                background: url(../img/svg/com.svg) no-repeat right;
+              }
+            }
+          }
+        }
       }
     }
   }
