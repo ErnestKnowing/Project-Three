@@ -368,4 +368,37 @@ img {
   width: 100%;
   height: 100%;
   z-index: 4;
+}
+.main .tours {
+  margin-bottom: 139px;
+}
+.main .tours .wrapper-full .tours_tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+}
+.main .tours .wrapper-full .tours_tour .tour_pic .tour_thomb {
+  width: 100%;
+}
+.main .tours .wrapper-full .tours_tour .tour_info .tour_title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;
+  margin-bottom: 85px;
+}
+.main .tours .wrapper-full .tours_tour .tour_info .tour_desc {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-bottom: 58px;
+}
+.main .tours .wrapper-full .tours_tour .tour_info .tour_more {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
