@@ -429,8 +429,33 @@ img {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 57px;
         .top_card {
+          .top_card-desc {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #102746;
+            margin-bottom: 31px;
+          }
+          .top_card-more {
+            background-color: #1b7dff;
+            padding: 12px 19px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: "Lato";
+            font-size: 16px;
+            line-height: 29px;
+            color: #ffffff;
+            border: 0;
+            transition: 0.15s;
+          }
+          .top_card-more:hover, .top_card-more:focus{
+            background-color: #194074;
+          }
           .top_card-pic {
             position: relative;
+            margin-bottom: 45px;
             .top_card-stats {
               display: flex;
               flex-wrap: wrap;
@@ -450,7 +475,6 @@ img {
                 line-height: 24px;
                 color: #ffffff;
                 margin: 0 auto 0 0;
-                
               }
               .top_card-likes {
                 font-family: "Lato";
