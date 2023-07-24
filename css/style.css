@@ -73,6 +73,10 @@ img {
   left: 0;
 }
 
+.header_active {
+  background-color: red;
+}
+
 .header {
   position: fixed;
   top: 0;
