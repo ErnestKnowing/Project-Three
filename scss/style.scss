@@ -67,13 +67,16 @@ img {
   left: 0;
 }
 .header_active{
-  background-color: red;
+  background-color: #0E1D28;
 }
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  transition: 0.5s linear;
+  padding-bottom: 20px;
+  z-index: 999;
 }
 .wrapper {
   max-width: 1060px;
