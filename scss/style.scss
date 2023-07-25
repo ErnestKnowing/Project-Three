@@ -66,8 +66,8 @@ img {
   bottom: 0;
   left: 0;
 }
-.header_active{
-  background-color: #0E1D28;
+.header_active {
+  background-color: #0e1d28;
 }
 .header {
   position: fixed;
@@ -460,7 +460,8 @@ img {
             width: 118px;
             margin: auto 0 0 0;
           }
-          .top_card-more:hover, .top_card-more:focus{
+          .top_card-more:hover,
+          .top_card-more:focus {
             background-color: #194074;
           }
           .top_card-pic {
@@ -513,16 +514,16 @@ img {
       }
     }
   }
-  .videos{
+  .videos {
     width: 100%;
-    .videos_wrapper{
+    .videos_wrapper {
       max-width: 1440px;
       margin: 0 auto;
       position: relative;
-      .video_item{
+      .video_item {
         padding-top: 56.25%;
       }
-      .video_element{
+      .video_element {
         position: absolute;
         top: 0;
         left: 0;
@@ -532,7 +533,46 @@ img {
     }
   }
 }
-.footer{
-  background-color: #0E1D28;
+.footer {
+  background-color: #0e1d28;
   padding: 119px 0;
+  .wrapper {
+    .footer_item {
+      display: flex;
+      flex-wrap: wrap;
+      .footer_logo {
+        width: 50%;
+      }
+      .footer_nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 50%;
+        .footer_menu {
+          .footer_menu-item {
+            .footer_menu-title {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 24px;
+              color: #ffffff;
+            }
+            .footer_menu-link {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #ffffff;
+              text-decoration: none;
+            }
+            .footer_menu-link:hover {
+              opacity: 0.75;
+            }
+          }
+        }
+      }
+    }
+  }
 }
