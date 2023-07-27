@@ -12,9 +12,14 @@
 }());
 (function(){
   const burger = document.querySelector(".burger");
+  const menu = document.querySelector(".header_nav");
+  const menuClose = document.querySelector(".header_nav-close")
   burger.addEventListener("click", function () {
-    const menu = document.querySelector(".header_nav");
     menu.classList.add("header_nav_active");
   });
+  menuClose.addEventListener("click", function () {
+    menu.classList.remove("header_nav_active");
+  });
+
 }())
 
