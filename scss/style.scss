@@ -637,7 +637,6 @@ img {
       align-items: flex-end;
       justify-content: space-between;
       padding-top: 56px;
-  
       .header_nav {
         width: 100%;
         height: 100%;
@@ -647,6 +646,8 @@ img {
         background: #000000;
         z-index: 10;
         padding: 75px;
+        transform: translateX(100%);
+        transition: .2s all linear;
         .header_list {
           display: flex;
           flex-wrap: wrap;
@@ -671,6 +672,9 @@ img {
             margin-bottom: 0;
           }
         }
+      }
+      .header_nav_active{
+        transform: translateX(0);
       }
       .header_burger{
         display: block;
