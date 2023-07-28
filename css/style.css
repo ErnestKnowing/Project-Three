@@ -598,6 +598,18 @@ img {
   opacity: 0.75;
 }
 
+@media screen and (max-width: 960px) {
+  .main .search_form_field {
+    margin-bottom: 25px;
+  }
+  .main .benefits .benefits_wrap .benefits_title {
+    padding: 55px 15px;
+  }
+  .main .benefits .benefits_wrap .benefits_cards {
+    padding: 0 15px;
+    grid-column-gap: 35px;
+  }
+}
 @media screen and (max-width: 767px) {
   .wrapper {
     max-width: 1060px;
