@@ -336,7 +336,8 @@ img {
 .main .places .wrapper-full .places_cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 .main .places .wrapper-full .places_cards .places_card {
   position: relative;
@@ -408,7 +409,7 @@ img {
 .main .tours .wrapper-full .tours_tour {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0 108px;
+  grid-column-gap: 108px;
   align-items: center;
   margin-bottom: 77px;
 }
@@ -462,7 +463,8 @@ img {
 .main .top .wrapper-full .top_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 57px;
+  grid-column-gap: 57px;
+  grid-row-gap: 57px;
 }
 .main .top .wrapper-full .top_cards .top_card {
   display: flex;
@@ -747,7 +749,8 @@ img {
   .main .places .wrapper-full .places_cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
   }
   .main .places .wrapper-full .places_cards .places_card {
     position: relative;
@@ -770,6 +773,10 @@ img {
   .main .places .wrapper-full .places_cards .places-card_size_sm {
     grid-column: span 6;
   }
+  .main .places .wrapper-full .places_cards .places-card_size_sm .places-card_pic {
+    width: 100%;
+    transition: 0.15s all;
+  }
   .main .places .wrapper-full .places_cards .places-card_size_sm .places_card_title {
     font-size: 50px;
     line-height: 60px;
@@ -787,14 +794,14 @@ img {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic_size_sm {
-    height: 283px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
   .main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic {
     width: 100%;
     transition: 0.15s all;
+  }
+  .main .places .wrapper-full .places_cards .places-card_size_lg .places-card_pic_size_sm {
+    height: 354px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .main .places .wrapper-full .places_cards .places-card_size_lg .places_card_title {
     font-size: 50px;
