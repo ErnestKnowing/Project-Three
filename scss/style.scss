@@ -827,5 +827,27 @@ img {
         }
       }
     }
+    .tours {
+      margin-bottom: 139px;
+      .wrapper-full {
+        .tours_tour {
+          grid-column-gap: 35px;
+          .tour_pic {
+            .tour_thomb {
+              width: 100%;
+            }
+          }
+          .tour_info {
+            padding-left: 0;
+            .tour_title {
+              margin-bottom: 15px;
+            }
+            .tour_desc {
+              margin-bottom: 15px;
+            }
+          }
+        }
+      }
+    }
   }
 }

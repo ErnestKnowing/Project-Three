@@ -820,4 +820,22 @@ img {
     height: 100%;
     z-index: 4;
   }
+  .main .tours {
+    margin-bottom: 139px;
+  }
+  .main .tours .wrapper-full .tours_tour {
+    grid-column-gap: 35px;
+  }
+  .main .tours .wrapper-full .tours_tour .tour_pic .tour_thomb {
+    width: 100%;
+  }
+  .main .tours .wrapper-full .tours_tour .tour_info {
+    padding-left: 0;
+  }
+  .main .tours .wrapper-full .tours_tour .tour_info .tour_title {
+    margin-bottom: 15px;
+  }
+  .main .tours .wrapper-full .tours_tour .tour_info .tour_desc {
+    margin-bottom: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
