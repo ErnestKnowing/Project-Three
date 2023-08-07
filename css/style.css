@@ -838,4 +838,8 @@ img {
   .main .tours .wrapper-full .tours_tour .tour_info .tour_desc {
     margin-bottom: 15px;
   }
+  .footer {
+    background-color: #0e1d28;
+    padding: 60px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
